@@ -1,6 +1,11 @@
 {
   "name": "mf-example",
   "private": true,
+  "scripts": {
+    "bootstrap": "npx lerna bootstrap",
+    "start": "npx lerna run start",
+    "build": "npx lerna run build"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   }
