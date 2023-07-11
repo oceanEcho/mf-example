@@ -7,13 +7,13 @@ App for demonstration of Webpack Module Federation opportunities
 Install packages for sub projects
 
 ```
-$ npm run bootstrap
+$ npm install
 ```
 
 ## Launch
 
 ```
-$ npm start
+$ npm start:<packageName>
 ```
 
 ## Build

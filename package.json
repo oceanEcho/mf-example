@@ -2,11 +2,12 @@
   "name": "mf-example",
   "private": true,
   "scripts": {
-    "bootstrap": "npx lerna bootstrap",
-    "start": "npx lerna run start",
-    "build": "npx lerna run build"
+    "start:shell": "npm run start --workspace=shell",
+    "start:widgets": "npm run start --workspace=widgets",
+    "build": "npm run start --workspace=packages"
   },
-  "devDependencies": {
-    "lerna": "^4.0.0"
-  }
+  "workspaces": [
+    "packages/shell",
+    "packages/widgets"
+  ]
 }
